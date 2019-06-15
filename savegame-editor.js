@@ -151,7 +151,7 @@ function closeFileConfirm(){
 function closeFile(){
 	show('dragzone');
 	hide('the-editor');
-	hide('toolbar');	
+	hide('toolbar');
 }
 
 function getSavegameDefaultName(){
@@ -308,7 +308,7 @@ function fixNumericFieldValue(field){
 	}else{
 		val=parseInt(val);
 	}
-	
+
 
 	if(isNaN(val) || val<field.minValue){
 		val=field.minValue;
@@ -387,7 +387,7 @@ function select(id,options,func){
 			}else if(typeof options[i] === 'object'){
 				select.appendChild(options[i]);
 			}
-			
+
 		}
 	}
 
@@ -442,7 +442,7 @@ function hr(){return document.createElement('hr')}
 
 
 
-	
+
 function getValue(f){
 	var field=getField(f);
 	if(/^number-/.test(field.id)){
